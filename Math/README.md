@@ -34,7 +34,28 @@ The math abstraction could help us.
 * We generalized our thinking.  
 
 ## 3. Technical Description
+**Official Math terms**
+
+Intuitive Concept | Formal Name | Symbol
+------------ | ------------- | -------------
+X-Ray (split apart) | Take the derivative (derive) | ![df00](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bd%7D%7Bdr%7D)
+Time-lapse (glue together) | together)	Take the integral (integrate) | ![if00](http://latex.codecogs.com/gif.latex?%5Cint_)
 
 
+**The Derivative**
+
+Intuitive Visualization | Formal description | Symbol
+------------ | ------------- | -------------
+![d01](https://betterexplained.com/wp-content/uploads/calculus/course/ring-arrow.png) | derive the area of a circle with respect to the radius | ![df01](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bd%7D%7Bdr%7DArea)
+![d02](https://betterexplained.com/wp-content/uploads/calculus/course/slice-arrow.png) | derive the area of a circle with respect to the perimeter | ![df02](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bd%7D%7Bdp%7DArea)
+![d03](https://betterexplained.com/wp-content/uploads/calculus/course/board-arrow.png) | derive the area of a circle with respect to the x-axis | ![df03](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bd%7D%7Bdx%7DArea)
+
+**The Integral**
+
+Formal description | Symbol | Measures Total Size Of
+------------ | ------------- | -------------
+integrate 2 * pi * r * dr from r=0 to r=r | ![if01](http://latex.codecogs.com/gif.latex?%5Cint_%7B0%7D%5E%7Br%7D2%5Cpi%20r%5C%2C%20dr) | ![i01](https://betterexplained.com/wp-content/uploads/calculus/course/ring-chart.png)
+integrate [a pizza slice] from [p = min perimeter] to [p = max perimeter] | ![if02](http://latex.codecogs.com/gif.latex?%5Cint_%7Bp%3Dmin%7D%5E%7Bp%3Dmax%7D%28pizza%5C%2C%20slice%29%5C%2C%20dp) | ![i02](https://betterexplained.com/wp-content/uploads/calculus/course/slice-chart.png)
+integrate [a board] from [x = min value] to [x = max value] | ![if03](http://latex.codecogs.com/gif.latex?%5Cint_%7Bx%3Dmin%7D%5E%7Bx%3Dmax%7D%28board%29%5C%2C%20dx) | ![i03](https://betterexplained.com/wp-content/uploads/calculus/course/board-chart.png)
 
 
