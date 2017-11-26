@@ -58,4 +58,27 @@ integrate 2 * pi * r * dr from r=0 to r=r | ![if01](http://latex.codecogs.com/gi
 integrate [a pizza slice] from [p = min perimeter] to [p = max perimeter] | ![if02](http://latex.codecogs.com/gif.latex?%5Cint_%7Bp%3Dmin%7D%5E%7Bp%3Dmax%7D%28pizza%5C%2C%20slice%29%5C%2C%20dp) | ![i02](https://betterexplained.com/wp-content/uploads/calculus/course/slice-chart.png)
 integrate [a board] from [x = min value] to [x = max value] | ![if03](http://latex.codecogs.com/gif.latex?%5Cint_%7Bx%3Dmin%7D%5E%7Bx%3Dmax%7D%28board%29%5C%2C%20dx) | ![i03](https://betterexplained.com/wp-content/uploads/calculus/course/board-chart.png)
 
+## 4. Basic Theory
+**Better Multiplication And Division**
+
+Operation | Example | Notes
+------------ | ------------- | -------------
+Division | ![bt01](http://latex.codecogs.com/gif.latex?%5Cfrac%7By%7D%7Bx%7D) | Split whole into identical parts
+Differentiation | ![bt02](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bd%7D%7Bdx%7Dy) | Split whole into (possibly different) parts
+Multiplication | y*x | Accumulate identical steps
+Integration | ![bt04](http://latex.codecogs.com/gif.latex?%5Cint%20y%5C%2C%20dx) | Accumulate (possibly different) steps
+
+**Better Algebra**
+
+Algebra + Calculus | Thinking process
+------------ | -------------
+Area of circle=? | The area of a circle is unknown...
+![ba02](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bd%7D%7Bdr%7DArea%3D2%5Cpi%20r) | …but I know it splits into rings (along the radius)
+![ba03](http://latex.codecogs.com/gif.latex?%5Cint%20%5Cfrac%7Bd%7D%7Bdr%7DArea%3D%5Cint%202%5Cpi%20r) | Integrate both sides…
+Area=πr^2 | …nd I can recreate the original area
+
+This helps think of integrals and derivatives like squares and square roots: operations that cancel!
+
+
+
 
