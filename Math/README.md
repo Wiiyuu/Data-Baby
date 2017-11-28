@@ -75,9 +75,18 @@ Algebra + Calculus | Thinking process
 Area of circle=? | The area of a circle is unknown...
 ![ba02](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bd%7D%7Bdr%7DArea%3D2%5Cpi%20r) | …but I know it splits into rings (along the radius)
 ![ba03](http://latex.codecogs.com/gif.latex?%5Cint%20%5Cfrac%7Bd%7D%7Bdr%7DArea%3D%5Cint%202%5Cpi%20r) | Integrate both sides…
-Area=πr^2 | …nd I can recreate the original area
+Area=πr^2 | …and I can recreate the original area
 
 This helps think of integrals and derivatives like squares and square roots: operations that cancel!
+
+**Find the derivative/integral of a line**
+
+A line: f(x)=4x  
+The derivative: ![line01](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bdf%7D%7Bdx%7D%3D%5Cfrac%7B4dx%7D%7Bdx%7D%3D4)  
+The Integral(definite and indefinite): ![line02](http://latex.codecogs.com/gif.latex?%5Cint_%7B0%7D%5E%7Bx%7D4dx%3D4x) ![line03](http://latex.codecogs.com/gif.latex?%5Cint%204dx%3D4x&plus;C)  
+
+The little secret of integrals is that we don't need to solve them directly. We just learn to recognize the derivatives of functions we've already seen.  
+Creating The Abstract Rules: ![line04](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bd%7D%7Bdx%7Da*x%3Da) and ![line05](http://latex.codecogs.com/gif.latex?%5Cint%20a%3Dax&plus;C)  
 
 
 
