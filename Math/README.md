@@ -81,13 +81,25 @@ This helps think of integrals and derivatives like squares and square roots: ope
 
 **Find the derivative/integral of a line**
 
+***Example***  
 A line: f(x)=4x  
 The derivative: ![line01](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bdf%7D%7Bdx%7D%3D%5Cfrac%7B4dx%7D%7Bdx%7D%3D4)  
-The Integral(definite and indefinite): ![line02](http://latex.codecogs.com/gif.latex?%5Cint_%7B0%7D%5E%7Bx%7D4dx%3D4x) ![line03](http://latex.codecogs.com/gif.latex?%5Cint%204dx%3D4x&plus;C)  
+The definite integral: ![line02](http://latex.codecogs.com/gif.latex?%5Cint_%7B0%7D%5E%7Bx%7D4dx%3D4x)  
+The indefinite integral:![line03](http://latex.codecogs.com/gif.latex?%5Cint%204dx%3D4x&plus;C)  
 
-The little secret of integrals is that we don't need to solve them directly. We just learn to recognize the derivatives of functions we've already seen.  
-Creating The Abstract Rules: ![line04](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bd%7D%7Bdx%7Da*x%3Da) and ![line05](http://latex.codecogs.com/gif.latex?%5Cint%20a%3Dax&plus;C)  
+***Abstract Rules***  
+![line04](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bd%7D%7Bdx%7Da*x%3Da) and ![line05](http://latex.codecogs.com/gif.latex?%5Cint%20a%3Dax&plus;C)  
+*The little secret of integrals is that we don't need to solve them directly. We just learn to recognize the derivatives of functions we've already seen.  
 
+**Find the derivative/integral of squares**
 
+***Example***  
+f(x)=x^2  
+Perimeter=4*x
+d(Perimeter)/dx=4
+df=f(x+1)−f(x)=(x+1)^2−x^2=(x^2+2x+1)−x^2=2x+1  
+
+***Explain how squares change***  
+d(x^2)dx={f(x+dx)−f(x)}/dx=2x+dx  
 
 
