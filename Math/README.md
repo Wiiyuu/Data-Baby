@@ -102,4 +102,7 @@ df=f(x+1)−f(x)=(x+1)^2−x^2=(x^2+2x+1)−x^2=2x+1
 ***Explain how squares change***  
 d(x^2)dx={f(x+dx)−f(x)}/dx=2x+dx  
 
+## 5. Basic Rules
+**Working With Infinity**
 
+TODO: "+1 hour: Theory II"
